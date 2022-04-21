@@ -1,41 +1,46 @@
-AirBnB Clone Phase #4
+# AirBnB Clone Phase #4
 
-Description
+# Description
 
 Project attempts to clone the the AirBnB application and website, including the database, storage, RESTful API, Web Framework, and Front End.
 
-Environment
+# Environment
 
-OS: Ubuntu 14.04 LTS
-language: Python 3.4.3
-style: PEP 8 (v. 1.7.0)
+* OS: Ubuntu 14.04 LTS
+* language: Python 3.4.3
+* style: PEP 8 (v. 1.7.0)
 
 
-Testing
+# Testing
 
-unittest
+## unittest
 This project uses python library, unittest to run tests on all python files. All unittests are in the ./tests directory with the command:
 
-python3 -m unittest discover -v ./tests/
+* python3 -m unittest discover -v ./tests/
 The bash script init_test.sh executes all these tests:
 
-checks pep8 style
+* checks pep8 style
 
-runs all unittests
+* runs all unittests
 
-runs all w3c_validator tests
+* runs all w3c_validator tests
 
-cleans up all __pycache__ directories and the storage file, file.json
+* cleans up all __pycache__ directories and the storage file, file.json
 
 Usage:
 
 $ ./dev/init_test.sh
-CLI Interactive Tests
+
+### CLI Interactive Tests
+
 This project uses python library, cmd to run tests in an interactive command line interface. To begin tests with the CLI, run this script:
 
 $ ./console.py
-For a detailed description of all tests, run these commands inside the custom CLI:
+
+* For a detailed description of all tests, run these commands inside the custom CLI:
+
 $ ./console.py
+
 (hbnb) help help
 List available commands with "help" or detailed help with "help cmd".
 (hbnb) help
@@ -53,22 +58,24 @@ class method with .function() syntax
 create: create [ARG]
         ARG = Class Name
         SYNOPSIS: Creates a new instance of the Class from given input ARG
-Tests in the CLI may also be executed with this syntax:
+* Tests in the CLI may also be executed with this syntax:
 
-destroy: <class name>.destroy(<id>)
+  * destroy: <class name>.destroy(<id>)
 
-update: <class name>.update(<id>, <attribute name>, <attribute value>)
+  * update: <class name>.update(<id>, <attribute name>, <attribute value>)
 
-update with dictionary: <class name>.update(<id>, <dictionary representation>)
+  * update with dictionary: <class name>.update(<id>, <dictionary representation>)
 
-Continuous Integration
+### Continuous Integration
+
 Uses Travis-CI to run all tests on all commits to the github repo
 
-Authors
+# Authors
 
 Sofonias Sintayehu sofisintayehu19@gmail.com
+
 Joy Wanjiru joywanjiru879@gmail.com
 
-License
+# License
 
 Public Domain, no copyright protection
