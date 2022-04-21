@@ -1,14 +1,18 @@
 AirBnB Clone Phase #4
+
 Description
+
 Project attempts to clone the the AirBnB application and website, including the database, storage, RESTful API, Web Framework, and Front End.
 
 Environment
+
 OS: Ubuntu 14.04 LTS
 language: Python 3.4.3
 style: PEP 8 (v. 1.7.0)
 
 
 Testing
+
 unittest
 This project uses python library, unittest to run tests on all python files. All unittests are in the ./tests directory with the command:
 
@@ -38,6 +42,7 @@ List available commands with "help" or detailed help with "help cmd".
 
 Documented commands (type help <topic>):
 ========================================
+
 Amenity    City  Place   State  airbnb  create   help  show
 BaseModel  EOF   Review  User   all     destroy  quit  update
 
@@ -60,7 +65,10 @@ Continuous Integration
 Uses Travis-CI to run all tests on all commits to the github repo
 
 Authors
+
 Sofonias Sintayehu sofisintayehu19@gmail.com
 Joy Wanjiru joywanjiru879@gmail.com
+
 License
+
 Public Domain, no copyright protection
